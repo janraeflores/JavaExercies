@@ -15,27 +15,27 @@ public class Main {
                     System.out.println("Exiting...");
                     break;
                 case 1:
-                FizzBuzz fizzBuzz = new FizzBuzz();
-                fizzBuzz.start();
-                break;
+                    FizzBuzz fizzBuzz = new FizzBuzz();
+                    fizzBuzz.start();
+                    break;
                 case 2:
-                FactorialCalc factCalc = new FactorialCalc();
-                factCalc.start();
-                break;
+                    FactorialCalc factCalc = new FactorialCalc();
+                    factCalc.start();
+                    break;
                 case 3:
-                PalindromeChecker palindromeChecker = new PalindromeChecker();
-                palindromeChecker.start();
-                break;
+                    PalindromeChecker palindromeChecker = new PalindromeChecker();
+                    palindromeChecker.start();
+                    break;
                 case 4:
-                SumOfTwo sumOfTwo = new SumOfTwo();
-                sumOfTwo.start();
-                break;
+                    SumOfTwo sumOfTwo = new SumOfTwo();
+                    sumOfTwo.start();
+                    break;
                 case 5:
-                FibonacciSequence fibonacciSequence = new FibonacciSequence();
-                fibonacciSequence.start();
-                break;
+                    FibonacciSequence fibonacciSequence = new FibonacciSequence();
+                    fibonacciSequence.start();
+                    break;
             }
-         } while (selected_exercise != 0);
+        } while (selected_exercise != 0);
     }
 
     public static void displayMenu() {
