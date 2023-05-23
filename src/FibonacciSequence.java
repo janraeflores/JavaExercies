@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class FibonacciSequence {
     public void start() {
         System.out.println("");
-        System.out.println("Starting Sum of Two Numbers Exercise...");
+        System.out.println("Starting Fibonacci Sequence Exercise...");
 
         /*
          * Notes:

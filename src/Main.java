@@ -34,6 +34,10 @@ public class Main {
                     FibonacciSequence fibonacciSequence = new FibonacciSequence();
                     fibonacciSequence.start();
                     break;
+                case 6:
+                    ReverseString reverseString = new ReverseString();
+                    reverseString.start();
+                    break;
             }
         } while (selected_exercise != 0);
     }
@@ -46,6 +50,7 @@ public class Main {
         System.out.println("3: Palindrome Checker");
         System.out.println("4: Sum of Two Numbers");
         System.out.println("5: Fibonacci Sequence");
+        System.out.println("6: Reverse String");
         System.out.println("0: EXIT");
     }
 }
