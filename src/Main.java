@@ -38,6 +38,10 @@ public class Main {
                     ReverseString reverseString = new ReverseString();
                     reverseString.start();
                     break;
+                case 7:
+                    SumOfEvenNum sumOfEvenNum = new SumOfEvenNum();
+                    sumOfEvenNum.start();
+                    break;
             }
         } while (selected_exercise != 0);
     }
@@ -51,6 +55,10 @@ public class Main {
         System.out.println("4: Sum of Two Numbers");
         System.out.println("5: Fibonacci Sequence");
         System.out.println("6: Reverse String");
+        System.out.println("7: Sum Of Even Numbers");
         System.out.println("0: EXIT");
+
+        System.out.println("");
+        System.out.print("Select an exercise: ");
     }
 }
