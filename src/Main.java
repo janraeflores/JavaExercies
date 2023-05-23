@@ -26,6 +26,10 @@ public class Main {
                 PalindromeChecker palindromeChecker = new PalindromeChecker();
                 palindromeChecker.start();
                 break;
+                case 4:
+                SumOfTwo sumOfTwo = new SumOfTwo();
+                sumOfTwo.start();
+                break;
             }
          } while (selected_exercise != 0);
     }
@@ -36,6 +40,7 @@ public class Main {
         System.out.println("1: FizzBuzz");
         System.out.println("2: Factorial Calculation");
         System.out.println("3: Palindrome Checker");
+        System.out.println("4: Sum of Two Numbers");
         System.out.println("0: EXIT");
     }
 }
