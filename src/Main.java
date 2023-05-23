@@ -30,6 +30,10 @@ public class Main {
                 SumOfTwo sumOfTwo = new SumOfTwo();
                 sumOfTwo.start();
                 break;
+                case 5:
+                FibonacciSequence fibonacciSequence = new FibonacciSequence();
+                fibonacciSequence.start();
+                break;
             }
          } while (selected_exercise != 0);
     }
@@ -41,6 +45,7 @@ public class Main {
         System.out.println("2: Factorial Calculation");
         System.out.println("3: Palindrome Checker");
         System.out.println("4: Sum of Two Numbers");
+        System.out.println("5: Fibonacci Sequence");
         System.out.println("0: EXIT");
     }
 }
